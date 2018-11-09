@@ -1,5 +1,5 @@
 # ralph-lauren-el-scraper
-Scrape Early Links from Ralph Lauren site
+Scrape early links from the Ralph Lauren site
 
 # Requirements:
 pip install requests
