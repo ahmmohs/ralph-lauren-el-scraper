@@ -3,7 +3,6 @@ import threading
 
 url = 'https://www.ralphlauren.com/p/p/'
 starting_pid = 480057
-threads = []
 
 print("--------------------------------------------")
 print("      RALPH LAUREN EARLY LINK SCRAPER       ")
@@ -22,4 +21,3 @@ for x in range(starting_pid, 481100):
     curl = url + str(x) + '.html'
     t = threading.Thread(target=checkUrl, args=(curl,))
     t.start()
-    threads.append(t)
